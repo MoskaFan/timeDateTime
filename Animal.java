@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public record Animal() {
+import java.time.LocalDate;
+
+public record Animal(String animalName, LocalDate birthdayAnimal) {
+
+
 }
